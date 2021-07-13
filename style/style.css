@@ -19,6 +19,8 @@
 
 * {
     margin: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
 }
 
 .container {
@@ -44,12 +46,24 @@
     width: 50%;
 }
 
+.hero-info-area {
+    margin-top: 180px;
+}
+
 .hero-area-title {
-    padding-top: 200px;
-    font-family: "Poppins", sans-serif;
+    font-weight: 700;
     font-size: 64px;
     color: white;
-    word-break: break-all;
+    margin-bottom: 27px;
+}
+
+.hero-button {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 10px 24px;
+    background-color: #e02c6d;
+    color: white;
 }
 
 .hero-image-area {
