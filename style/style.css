@@ -24,7 +24,8 @@
 }
 
 .container {
-    display: flex;
+    width: 80%;
+    margin: 0 auto;
 }
 
 
@@ -37,9 +38,8 @@
 }
 
 .hero-area {
-    width: 80%;
-    margin: 0 auto;
     padding: 40px;
+    display: flex;
 }
 
 .hero-area>div {
