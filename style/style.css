@@ -212,6 +212,12 @@
     margin-top: 100px;
 }
 
+.blog-area-title {
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
 .blogs {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -226,6 +232,7 @@
 .blog h2 {
     font-size: 30px;
     font-weight: 600;
+    margin-bottom: 10px;
 }
 
 .blog p {
