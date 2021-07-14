@@ -47,7 +47,8 @@
 }
 
 .hero-info-area {
-    margin-top: 170px;
+    margin-top: 200px;
+    margin-left: 140px;
 }
 
 .hero-area-title {
@@ -89,6 +90,7 @@
 }
 
 .players {
+    width: 60%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 30px;
@@ -96,6 +98,7 @@
 
 .player {
     padding: 15px;
+    box-shadow: 1px 1px 50px rgb(216, 216, 216);
 }
 
 .player img {
