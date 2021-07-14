@@ -7,6 +7,7 @@
     laptop screen
 ----------------------------- */
 @media only screen and (max-width:1279px) {
+
     .hero-info-area {
         margin-top: 42px;
         margin-left: 0;
@@ -14,6 +15,10 @@
 
     .highlight-detail {
         margin-top: 0;
+    }
+
+    .hero-area-title {
+        font-size: 50px;
     }
 
     .highlight-area {
@@ -26,9 +31,6 @@
 ----------------------------- */
 
 @media only screen and (max-width:992px) {
-    /* .container {
-        width: 100%;
-    } */
 
     .hero-area {
         padding: 0px;
@@ -41,7 +43,6 @@
     }
 
     .players {
-        width: 80%;
         grid-template-columns: repeat(2, 1fr);
     }
 
@@ -56,8 +57,11 @@
 }
 
 @media only screen and (max-width:768px) {
+    .container {
+        width: 90%;
+    }
+
     .players {
-        width: 80%;
         grid-template-columns: 1fr;
     }
 
