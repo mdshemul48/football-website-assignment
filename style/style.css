@@ -2,7 +2,7 @@
     fonts
 ----------------------------- */
 
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 
 
 /* --------------------------
@@ -203,6 +203,38 @@
 
 /* --------------------------
    award-area end
+----------------------------- */
+
+/* --------------------------
+    blog area start
+----------------------------- */
+.blog-area {
+    margin-top: 100px;
+}
+
+.blogs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 50px;
+}
+
+.blog {
+    padding: 30px;
+    box-shadow: 0px 0px 50px rgb(209, 209, 209);
+}
+
+.blog h2 {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.blog p {
+    font-size: 18px;
+}
+
+
+/* --------------------------
+    blog area end
 ----------------------------- */
 
 
