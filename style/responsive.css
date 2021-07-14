@@ -6,6 +6,7 @@
 /* --------------------------
     laptop screen
 ----------------------------- */
+
 @media only screen and (max-width:1279px) {
 
     .hero-info-area {
@@ -55,6 +56,10 @@
         grid-template-columns: 1fr;
     }
 }
+
+/* --------------------------
+    mobile screen
+----------------------------- */
 
 @media only screen and (max-width:768px) {
     .container {
