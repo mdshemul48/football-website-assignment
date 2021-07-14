@@ -73,3 +73,31 @@
 .hero-image-area img {
     width: 100%;
 }
+
+
+/* --------------------------
+    header done
+----------------------------- */
+
+
+/* --------------------------
+    players area
+----------------------------- */
+
+.all-players-area {
+    margin-top: 70px;
+}
+
+.players {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+}
+
+.player {
+    padding: 15px;
+}
+
+.player img {
+    width: 100%;
+}
