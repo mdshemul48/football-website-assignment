@@ -24,7 +24,7 @@
 }
 
 .container {
-    width: 80%;
+    width: 75%;
     margin: 0 auto;
 }
 
@@ -145,6 +145,65 @@
     highlight area end
 ----------------------------- */
 
+
+/* --------------------------
+   award-area stat
+----------------------------- */
+.award-area {
+    margin-top: 200px;
+}
+
+.award-title,
+.award-title>span {
+    margin-bottom: 50px;
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.award-title>span {
+    color: #e02c6d;
+}
+
+.award {
+    border-radius: 20px;
+    display: flex;
+    box-shadow: 0px 0px 50px rgb(209, 209, 209);
+    margin-bottom: 50px;
+}
+
+
+.award-picture-count-area {
+    display: flex;
+    align-items: center;
+    padding: 30px;
+}
+
+.award-count {
+    font-size: 55px;
+    font-weight: 700;
+    margin-left: 15px;
+}
+
+
+.award-detail {
+    background-image: linear-gradient(to right, #c9c9c92b, transparent);
+    width: 80%;
+    padding: 30px;
+}
+
+.award-detail h2 {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.award-detail p {
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+/* --------------------------
+   award-area end
+----------------------------- */
 
 
 /* --------------------------
