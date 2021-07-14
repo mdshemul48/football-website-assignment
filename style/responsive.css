@@ -1,0 +1,72 @@
+/* --------------------------
+    style for other devices
+----------------------------- */
+
+
+/* --------------------------
+    laptop screen
+----------------------------- */
+@media only screen and (max-width:1279px) {
+    .hero-info-area {
+        margin-top: 42px;
+        margin-left: 0;
+    }
+
+    .highlight-detail {
+        margin-top: 0;
+    }
+
+    .highlight-area {
+        grid-column-gap: 0;
+    }
+}
+
+/* --------------------------
+    tablet screen
+----------------------------- */
+
+@media only screen and (max-width:992px) {
+    /* .container {
+        width: 100%;
+    } */
+
+    .hero-area {
+        padding: 0px;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .hero-area>div {
+        width: 100%;
+    }
+
+    .players {
+        width: 80%;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .highlight-area {
+        grid-template-columns: 1fr;
+        grid-gap: 50px;
+    }
+
+    .blogs {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .players {
+        width: 80%;
+        grid-template-columns: 1fr;
+    }
+
+    .award {
+        flex-direction: column;
+
+    }
+
+    .award-picture-count-area {
+        justify-content: space-around;
+    }
+}
