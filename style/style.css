@@ -39,7 +39,7 @@
 }
 
 .button:hover {
-    background-color: #8b1e46;
+    background-color: #aa2354;
 }
 
 /* --------------------------
@@ -72,13 +72,32 @@
 }
 
 
-
 .hero-image-area {
     padding: 60px;
 }
 
 .hero-image-area img {
+    position: relative;
     width: 100%;
+}
+
+/* adding animation to player picture on hover */
+@keyframes animate-hero-player {
+    0% {
+        top: 0px;
+    }
+
+    50% {
+        top: -50px;
+    }
+
+    100% {
+        top: 0px;
+    }
+}
+
+.header-section:hover .hero-image-area img {
+    animation: animate-hero-player 3s ease-in-out infinite;
 }
 
 /* --------------------------
