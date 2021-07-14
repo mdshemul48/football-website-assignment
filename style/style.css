@@ -3,6 +3,8 @@
 ----------------------------- */
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap");
+
+
 /* --------------------------
     global variables
 ----------------------------- */
@@ -94,7 +96,7 @@
 
 .player {
     padding: 15px;
-    box-shadow: 1px 1px 50px rgb(209, 209, 209);
+    box-shadow: 0px 0px 50px rgb(209, 209, 209);
 }
 
 .player img {
@@ -133,4 +135,39 @@
 
 .highlight-picture img {
     width: 100%;
+}
+
+/* --------------------------
+    highlight area end
+----------------------------- */
+
+
+
+/* --------------------------
+    footer area
+----------------------------- */
+.footer-area {
+    margin-top: 158px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo img {
+    width: 483.87px;
+}
+
+.social-icons i {
+    font-size: 35px;
+    margin-right: 14px;
+    color: #969BAB;
+    background-color: #e7e7e8;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.copyright-text {
+    margin-top: 20px;
+    font-size: 18px;
+    margin-bottom: 63px;
 }
