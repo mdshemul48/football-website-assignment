@@ -28,6 +28,20 @@
     margin: 0 auto;
 }
 
+.button {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 10px 24px;
+    background-color: #e02c6d;
+    color: white;
+    transition: background-color 1s;
+}
+
+.button:hover {
+    background-color: #8b1e46;
+}
+
 /* --------------------------
     header section
 ----------------------------- */
@@ -57,14 +71,7 @@
     margin-bottom: 27px;
 }
 
-.button {
-    text-decoration: none;
-    font-weight: 500;
-    font-size: 16px;
-    padding: 10px 24px;
-    background-color: #e02c6d;
-    color: white;
-}
+
 
 .hero-image-area {
     padding: 60px;
