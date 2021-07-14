@@ -232,6 +232,9 @@
     font-size: 18px;
 }
 
+.author-area {
+    display: flex;
+}
 
 /* --------------------------
     blog area end
