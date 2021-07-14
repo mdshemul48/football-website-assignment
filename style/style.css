@@ -93,12 +93,13 @@
     width: 60%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 30px;
+    grid-column-gap: 30px;
+    grid-row-gap: 27px;
 }
 
 .player {
     padding: 15px;
-    box-shadow: 1px 1px 50px rgb(216, 216, 216);
+    box-shadow: 1px 1px 50px rgb(209, 209, 209);
 }
 
 .player img {
